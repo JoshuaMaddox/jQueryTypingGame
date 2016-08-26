@@ -1,0 +1,31 @@
+body{
+	/*margin: 35em;*/
+}
+
+.keyboard {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.col-md-8 {
+	text-align: center;
+}
+
+h2 {
+	padding-bottom: 30px;
+}
+
+.keys {	
+  	-webkit-box-shadow: 3px 3px 2px -4px rgba(77,77,77,0.54);
+	-moz-box-shadow: 3px 3px 2px -4px rgba(77,77,77,0.54);
+	box-shadow: 3px 3px 2px -4px rgba(77,77,77,0.54);
+}
+
+.correctKey {
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+
